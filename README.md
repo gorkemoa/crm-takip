@@ -6,7 +6,7 @@
     <td><img src="adsiz-tasarim-19.png" width="350"/></td>
   </tr>
   <tr>
-    <td><img src="adsiz-tasarim-20.png" width="350"/></td>
+    <td><img src="adsiz-tasarim-26.png" width="350"/></td>
     <td><img src="adsiz-tasarim-21.png" width="350"/></td>
   </tr>
 </table>
