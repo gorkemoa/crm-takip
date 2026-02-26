@@ -1,6 +1,6 @@
 # Crm Takip (Vanilla JS + PHP + MySQL + SSE)
 
-![Uploading Adsız tasarım (18).png…]()
+![Banner](adsiz-tasarim-18.png)
 
 
 Sade, kurumsal bir **proje & iş akışı takip** uygulaması.
