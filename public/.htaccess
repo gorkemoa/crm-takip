@@ -1,0 +1,19 @@
+Options -Indexes -MultiViews
+AddDefaultCharset UTF-8
+AddType application/javascript .js
+AddType text/css .css
+
+RewriteEngine On
+RewriteBase /
+
+# Never rewrite static assets or API routes
+RewriteRule ^assets/ - [L]
+RewriteRule ^api/ - [L]
+
+# Pass through existing files/directories (API and assets included)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# SPA fallback
+RewriteRule . /index.html [L]

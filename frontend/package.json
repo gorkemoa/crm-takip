@@ -1,0 +1,15 @@
+{
+  "name": "crm-takip-frontend",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:sync": "vite build && node scripts/sync-dist-to-public.js",
+    "sync:public": "node scripts/sync-dist-to-public.js",
+    "preview": "vite preview --host",
+    "build:offline": "node build.js"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

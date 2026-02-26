@@ -1,0 +1,10 @@
+<?php
+declare(strict_types=1);
+
+return [
+    'host' => 'sqlXXX.epizy.com',
+    'port' => 3306,
+    'dbname' => 'epiz_xxxxxx_crm',
+    'user' => 'epiz_xxxxxx',
+    'pass' => 'CHANGE_ME',
+];

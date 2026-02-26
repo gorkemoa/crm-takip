@@ -1,0 +1,10 @@
+export { render as renderLogin } from './login.js';
+export { render as renderRegister } from './register.js';
+export { render as renderDashboard } from './dashboard.js';
+export { render as renderProjects } from './projects.js';
+export { render as renderProjectDetail } from './project-detail.js';
+export { render as renderIdeas } from './ideas.js';
+export { render as renderIdeaDetail } from './idea-detail.js';
+export { render as renderSettings } from './settings.js';
+export { render as renderNotifications } from './notifications.js';
+export { render as renderNotFound } from './not-found.js';
